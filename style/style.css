@@ -127,6 +127,26 @@ main > section{
     height: 240px; */
     
 }
+.sponsor{
+    max-width: 542px;
+    margin: 50px auto;
+    text-align: center;
+}
+.sponsor-title{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.footer-image{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+.footer-imge img{
+    filter: grayscale(100%);
+}   
 
 
 
@@ -139,13 +159,43 @@ main > section{
     .navbar nav ul .team{
         flex-direction: column;
     }
+    
     .team-image{
         grid-template-columns: repeat(1,1fr);
+        /* justify-items: center; */
     }
     .team-content{
         margin-left: 100px;
     }
     .facts{
         grid-template-columns: repeat(1,1fr);
+        justify-items: center;
     }
+    .footer-image{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        gap: 50px;
+    }
+}
+.features{
+    display: flex;
+    gap: 100px;
+}
+.frature-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#expericnce-badge{
+    padding: 45px 42px;
+    margin-left: -100px;
+    margin-top: -80px;
+}
+#experience-year{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.rakib-hassan img{
+width: 100%;
 }
